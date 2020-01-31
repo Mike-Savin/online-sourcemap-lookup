@@ -73,7 +73,7 @@ function pad(str, len) {
 console.log("");
 var fs = require("fs");
 var sourceMap = require('source-map');
-var http = require("http");
+var http = require("https");
 
 url = url.split('/');
 var fileName = url.pop();
